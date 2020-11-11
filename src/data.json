@@ -1,0 +1,90 @@
+{
+    "products": [
+        {
+            "_id": "quesoFresco1",
+            "title": "Queso fresco semidulce",
+            "price": 10.5,
+            "description": "Queso hecho con leche selecta de vacas libres",
+            "variaciones": [
+                "Vegano",
+                "Vegetariano"
+            ],
+            "categoria": "proteínas",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117749/organica-ecommerce/pexels-c-technical-5857816_fkdoax.jpg",
+            "image-credits": "Photo by C Technical from Pexels"
+        },
+        {
+            "_id": "almendras1",
+            "title": "Almendras Orgánicas",
+            "price": 9,
+            "description": "Almendras seleccionadas de cultivos orgánicos, campos de Bariloche",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "semillas1",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117748/organica-ecommerce/pexels-karolina-grabowska-4033325_a6ydyr.jpg",
+            "image-credits": "Photo by Karolina Grabowska from Pexels"
+        },
+        {
+            "_id": "naranjas1",
+            "title": "Naranjas Valencianas",
+            "price": 4,
+            "description": "Naranjas de injertos españoles y venezolanos, libre de pesticidas",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "frutos dulces",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117749/organica-ecommerce/pexels-karolina-grabowska-4022107_imsvz0.jpg",
+            "image-credits": "Photo by Karolina Grabowska from Pexels"
+        },
+        {
+            "_id": "yogurt1",
+            "title": "Yogurt griego",
+            "price": 9.5,
+            "description": "Yogurt de cultivos biológicos orgánicos, con trozos de fruta",
+            "variaciones": [
+                "Vegano",
+                "Vegetariano"
+            ],
+            "categoria": "proteínas",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117749/organica-ecommerce/pexels-nuruddin-bharmal-3547176_uupgls.jpg",
+            "image-credits": "Photo by Nuruddin Bharmal from Pexels"
+        },
+        {
+            "_id": "chocolate1",
+            "title": "Chocolate B&N",
+            "price": 12.5,
+            "description": "Mix de barras de chocolate amargo y blanco",
+            "variaciones": [
+                "Vegetariano"
+            ],
+            "categoria": "dulces y aromáticos",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117748/organica-ecommerce/pexels-polina-tankilevitch-4110097_j55ua0.jpg",
+            "image-credits": "Photo by Polina Tankilevitch from Pexels"
+        },
+        {
+            "_id": "tomates1",
+            "title": "Tomate Cherry",
+            "price": 5,
+            "description": "Tomates cherry orgánicos, hidropónicos",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "vegetales",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117748/organica-ecommerce/pexels-karolina-grabowska-4022083_nvffun.jpg",
+            "image-credits": "Photo by Karolina Grabowska from Pexels"
+        },
+        {
+            "_id": "arandanos1",
+            "title": "Arándanos Sureños",
+            "price": 6,
+            "description": "Arándanos orgánicos cultivados en la región de Coquimbo, Chile",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "frutos dulces",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117748/organica-ecommerce/pexels-adrienne-andersen-2254063_rufxu4.jpg",
+            "image-credits": "Photo by Adrienne Andersen from Pexels"
+        }
+    ]
+}
