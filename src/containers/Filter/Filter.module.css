@@ -1,0 +1,236 @@
+.Filter{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.FilterResult {
+    display: none;
+}
+
+.FilterSort{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 22rem;
+    justify-items: baseline;
+    align-items: center;
+}
+
+.FilterSort select {
+     font-family: 'Raleway',
+     sans-serif;
+     padding: 6%;
+     font-weight: bold;
+     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2383A638%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+     background-repeat: no-repeat, repeat;
+     background-position: right 3px top 50%, 0 0;
+     background-size: .85em auto, 100%;
+     width: 8.5rem;
+}
+
+.FilterCatContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+.FilterCateg{
+    display: flex;
+    flex-flow: column;
+}
+
+.FilterCateg select {
+    font-family: 'Raleway', sans-serif;
+    width: 11rem;
+    /* border-left: 1px solid grey; */
+    padding: 6%;
+    font-weight: bold;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2383A638%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat,
+        repeat;
+    background-position: right 1px top 50%, 0 0;
+    background-size: .85em auto, 100%;
+}
+
+.SearchContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+
+.FilterCateg input {
+    font-family: 'Raleway', sans-serif;
+    border: 0.5px solid gray;
+    text-transform: uppercase;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    /* border-right: 0.5px solid grey; */
+    padding-bottom: 0.5rem;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 0.5rem;
+}
+
+
+@media (min-width: 1102px){
+    .Filter{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .FilterCateg{
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .FilterSort{
+        display: flex;
+        margin-left: 38%;
+    }
+    .SearchContainer{
+        display: flex;
+        margin-right: 15%;
+    }
+    .FilterCatContainer{
+        margin-left: 4%;
+    }
+    
+}
+/* .Filter{
+    box-sizing: border-box;
+    width: 83%;
+    margin: 0 auto;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 4.5fr;
+    grid-gap: 5%;
+}
+
+.FilterResult {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-right: 0.5px solid gray;
+}
+
+.FilterSort{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.FilterSort select{
+    margin-left: -10%;
+     background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2383A638%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+     background-repeat: no-repeat,
+     repeat;
+     background-position: right 1px top 50%,
+     0 0;
+     background-size: .85em auto,
+     100%;
+}
+
+
+.FilterCateg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    align-items: center;
+}
+
+.FilterCateg select{
+    font-family: 'Raleway', sans-serif;
+    border-left: 1 px solid grey;
+    padding: 6%;
+    font-weight: bold;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2383A638%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat,
+    repeat;
+    background-position: right 1px top 50%, 0 0;
+    background-size: .85em auto, 100%;
+}
+
+.SearchContainer{
+    display: flex;
+}
+
+.FilterCatContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.FilterCateg input{
+    margin-left: 4%;
+    border: none;
+    border-left: 0.5px solid grey;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    padding-right: 0%;
+    padding-top: 0.5rem;
+}
+
+.FilterCateg option{
+    appearance: none;
+}
+
+@media (max-width:700px){
+.Filter {
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items:center;
+
+}
+.FilterResult{
+    display: none;
+}
+
+.FilterSort{
+    width: 100%;
+}
+
+.FilterSort select{
+    margin-left: -19%;
+    width: 32%;
+    background-position: right 16px top 50%, 0 0;
+
+}
+
+.FilterCatContainer {
+    border-bottom: 0.5px solid gray;
+}
+
+.SEarchContainer{
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+
+}
+
+.SearchContainer input{
+    border:none;
+}
+
+.FilterCateg{
+    flex-flow: column;
+    width: 90%;
+    border: none;
+}
+
+.FilterCateg input{
+    width: 100%;
+    border: 0.5px solid grey;
+    margin: 0 5%;
+}
+} */

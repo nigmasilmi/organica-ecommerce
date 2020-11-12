@@ -32,6 +32,15 @@
     color: #BF0426;
 }
 
+.Search{
+    width: 6rem;
+    color: #7ba324;
+    border: 2px solid #648d0a;
+    border-radius: 4px;
+    transition: all;
+
+}
+
 .Button:hover{
     border: 2px solid #F28907;
 }
