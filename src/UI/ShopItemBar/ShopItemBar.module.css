@@ -1,0 +1,33 @@
+.ShopItemBar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2%;
+    /* background-color: rgba(99, 96, 96, 0.4); */
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+
+.ItemBg{
+    background-color: rgba(245, 245, 220, 0.7);
+    border-radius: 50%;
+    border: 2px solid #83A638;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+
+}
+
+@media (min-width: 1100px){
+    .ShopItemBar{
+        top: 58%;
+    }
+}

@@ -12,6 +12,7 @@ sans-serif;
  primary: #83A638
  accents: #F28907
  accents 2: #F22929
+ dark fonts rgb(24, 24, 24);
  */
 *{
   box-sizing: border-box;
@@ -19,7 +20,6 @@ sans-serif;
 .App{
   font-family: 'Cabin', sans-serif;
   display: flex;
-  flex-flow: column;
 }
 
 li{
@@ -37,3 +37,5 @@ select{
   padding: 1%;
   appearance: none;
 }
+
+

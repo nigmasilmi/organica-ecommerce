@@ -86,5 +86,67 @@
             "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605117748/organica-ecommerce/pexels-adrienne-andersen-2254063_rufxu4.jpg",
             "image-credits": "Photo by Adrienne Andersen from Pexels"
         }
+    ],
+    "sweetDeli": [
+        {
+            "_id": "colinaFrutal1",
+            "title": "Colina Frutal",
+            "price": 13.5,
+            "description": "Tarta base de pistacho con frutos de temporada",
+            "variaciones": [
+                "Vegano"
+            ],
+            "categoria": "sweetDeli",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605378712/organica-ecommerce/pexels-alexander-cuelove-2273823_xqp4is.jpg",
+            "image-credits": "Photo by Alexander Cuelove from Pexels"
+        },
+        {
+            "_id": "fresasNevadas1",
+            "title": "Frutillas Nevadas",
+            "price": 9,
+            "description": "Frutillas embebidas en base de espuma de soya con miel de abejas",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "sweetDeli",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605379005/organica-ecommerce/pexels-susanne-jutzeler-1132558_nsmf01.jpg",
+            "image-credits": "Photo by Suzanne Jutzeler from Pexels"
+        },
+        {
+            "_id": "tarta1",
+            "title": "Tarta Norte a Sur",
+            "price": 12,
+            "description": "Tarta con base de galletas María venezolanas y frutos rojos de Suramérica",
+            "variaciones": [
+                "Natural"
+            ],
+            "categoria": "sweetDeli",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605381926/organica-ecommerce/pexels-anna-tukhfatullina-food-photographerstylist-2693447_1_noet84.jpg",
+            "image-credits": "Photo by Anna Tukhfatullina Food Photographer/Stylist from Pexels"
+        },
+        {
+            "_id": "arcoiris1",
+            "title": "Arcoiris de la mañana",
+            "price": 10.5,
+            "description": "Mix de frutas tropicales y sureñas en base de yogurt de arándanos",
+            "variaciones": [
+                "Vegetariano"
+            ],
+            "categoria": "sweetDeli",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605379420/organica-ecommerce/pexels-trang-doan-1099680_hfbzog.jpg",
+            "image-credits": "Photo by Trang Doan from Pexels"
+        },
+        {
+            "_id": "brownies1",
+            "title": "Brownies Intensos",
+            "price": 12.5,
+            "description": "Brownies de chocolate amargo y miel de naranjas",
+            "variaciones": [
+                "Vegetariano"
+            ],
+            "categoria": "sweetDeli",
+            "image": "https://res.cloudinary.com/dz3gm9c3w/image/upload/v1605381926/organica-ecommerce/pexels-valeria-boltneva-1579926_lyy9vn.jpg",
+            "image-credits": "Photo by Valeria Boltneva from Pexels"
+        }
     ]
 }
